@@ -28,3 +28,9 @@ Fire-up an OSGeo4W shell and:
 The database-related options can be filled with dummy info if you're only working on raster data.
 
 `C:\tmp\get-os-stuff` is a folder where data will be downloaded and processed. Raster results will be seen under `C:\tmp\get-os-stuff\data` 
+
+## Troubleshooting
+
+There's a known issue with running the script with Python 2.7.4 (see [here](http://bugs.python.org/issue17656)).
+
+If you see errors like *TypeError: character mapping must return integer, None or unicode*, please switch to Python 2.7.5 or above.  
